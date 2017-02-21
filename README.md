@@ -25,7 +25,12 @@ Enter this information for each movie that you would like to appear on the websi
 
 The list of movies ```movies = [movie_name_1, movie_name_2, ...]```  will need to be filled in to correspond with the ```movie_name```s from the instances above.  
 
-The program command ```fresh_tomatoes.open_movies_page(movies)``` will run the code and generate an html page with the content you provided. The html file created by the program will be stored in the same folder as the two Python files. Cool! 
+The program command ```fresh_tomatoes.open_movies_page(movies)``` will run the code and generate an html page with the content you provided. The html file created by the program will be stored in the same folder as the two Python files.
+
+##Running the application
+To run the application and generate an html page customized with information you provided, either: 
+1. Open ```entertainment_center.py``` in IDLE, select "Run" from the menu bar and choose "Run Module (F5)"; or
+2. From the terminal, navigate to the directory where ```entertainment_center.py``` is located and type: ```python entertainment_center.py```. The program will run on enter, and your movies page will open in your default HTML reader.  
 
 
 
