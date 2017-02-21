@@ -1,3 +1,7 @@
+# Establishing a parent object from which
+# child can inherit attributes
+
+
 class Parent():
     def __init__(self, last_name, eye_color):
         print("Parent Constructor Called")
@@ -9,6 +13,7 @@ class Parent():
         print("Eye Color - "+self.eye_color)
 
 
+# Experimenting with inheritance
 class Child(Parent):
     def __init__(self, last_name, eye_color, number_of_toys):
         print("Child Constructor Called")
