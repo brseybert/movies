@@ -15,16 +15,18 @@ class Movie():
         poster_image,
         trailer_youtube
     ):
+        """Define the inputs and self-reference"""
         self.title = movie_title
         self.storyline = movie_storyline
         self.poster_image_url = poster_image
         self.trailer_youtube_url = trailer_youtube
 
     def show_trailer(self):
+        """Define the show_trailer modal"""
         webbrowser.open(self.trailer_youtube_url)
 
 # Define a class called  "TvShow"
 
 
 class TvShow():
-    """This class provides a way to store tv-specific infomration."""
+    """This class provides a way to store tv-specific information."""
