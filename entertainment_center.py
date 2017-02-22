@@ -12,7 +12,7 @@ office_space = media.Movie(
 # The Big Lebowski
 the_big_lebowski = media.Movie(
     "The Big Lebowski",
-    "The laziest man in Los Angeles County investigates a kidnapping scheme.",
+    "A lazy L.A. County man investigates a kidnapping.",
     "http://bit.ly/2l37AJp",
     "https://youtu.be/cd-go0oBF4Y")
 
@@ -35,7 +35,7 @@ the_professional = media.Movie(
 # Vanilla Sky
 vanilla_sky = media.Movie(
     "Vanilla Sky",
-    "An accident leads the heir of a publishing company into the future.",
+    "Tom Cruise. Rubber Face. Lucid Deams?",
     "http://bit.ly/2l3kcAe",
     "https://youtu.be/k09OX40NLUw")
 

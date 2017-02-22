@@ -15,13 +15,23 @@ main_page_head = '''
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
     <link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
     <style type="text/css" media="screen">
         body {
-            padding-top: 80px;
+            padding-top: 20px;
             font-family: 'Oswald', sans-serif;
         }
+
+        body p {
+            font-family: 'Alegreya';
+        }
+
+        .container {
+            padding: 15px;
+        }
+
         #trailer .modal-dialog {
             margin-top: 200px;
             width: 640px;
@@ -125,7 +135,7 @@ main_page_content = '''
 # A single movie entry html template
 movie_tile_content = '''
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
-    <img src="{poster_image_url}" width="220" height="342">
+    <img src="{poster_image_url}" width="220" height="343">
     <h2>{movie_title}</h2>
     <p>{storyline}</p>
 </div>
